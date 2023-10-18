@@ -14,11 +14,11 @@ function Result() {
     console.log(result)
 
     return (
-      <div className="min-h-screen bg-[url('/public/bgg.avif')] bg-cover flex flex-col justify-center items-center  ">
+      <div className="min-h-screen bg-[url('/bgg.avif')] bg-cover flex flex-col justify-center items-center  ">
         <div className="bg-white h-[40rem] w-[65rem] rounded-xl flex flex-col items-center overflow-y-scroll">
           <div className="flex justify-end px-2 w-full">
             <img
-              src="../public/tvs.png"
+              src="../tvs.png"
               alt=""
               className="object-contain h-20 w-64"
             />

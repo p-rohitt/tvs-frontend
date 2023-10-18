@@ -7,7 +7,7 @@ function App() {
       <div className="h-24 flex  items-center justify-between max-w-6xl mx-auto">
         <span className="p-4 flex items-center">
           <img
-            src="../public/tvs.png"
+            src="../tvs.png"
             alt="tvs.png"
             className="object-fill h-14 w-72"
           />
@@ -15,7 +15,7 @@ function App() {
 
         <span>
           <img
-            src="../public/sidelogo.jpg"
+            src="../sidelogo.jpg"
             alt="sidelogo.png"
             className="h-24 "
           />
@@ -26,7 +26,7 @@ function App() {
 
       <div className="flex justify-center  items-center">
         <div className="mr-24">
-          <img src="../public/leftimg.jpg" className="w-[250rem] ml-16" />
+          <img src="../leftimg.jpg" className="w-[250rem] ml-16" />
         </div>
 
         <div className="bg-gradient-to-br from-emerald-600 to-sky-600 rounded-lg mt-5 mr-10 flex flex-col items-center">
@@ -52,7 +52,7 @@ function App() {
             </p>
           </div>
           <div className="flex flex-col justify-between items-center">
-            <img src="../public/speed.png" alt="" className="" />
+            <img src="../speed.png" alt="" className="" />
             <div className="mt-5 bg-gradient-to-br text-center pt-2  from-sky-300 to-green-500 h-10 w-44 mb-7 rounded-full text-white font-inter font-bold">
               <Link to="/form">Calculate Risk</Link>
             </div>

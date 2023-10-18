@@ -47,7 +47,7 @@ function Form2({formType, setFormType, secondForm, setSecondForm}) {
                    {formType != 0 && (
             <div className="flex justify-between px-1 w-full">
               <img
-                src="../public/tvs.png"
+                src="../tvs.png"
                 alt=""
                 className="object-contain h-10 w-64"
               />

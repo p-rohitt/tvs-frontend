@@ -157,13 +157,13 @@ function Form() {
 
     // </>
 
-    <div className="min-h-screen bg-[url('/public/bgg.avif')] bg-cover overflow-hidden flex justify-center items-center">
+    <div className="min-h-screen bg-[url('/bgg.avif')] bg-cover overflow-hidden flex justify-center items-center">
       <div className="bg-white h-[40rem] w-[65rem] rounded-xl flex flex-col items-center overflow-y-scroll overflow-x-hidden">
         <div className="flex mt-2 justify-end w-full mr-4 items-center mb-10">
           {formType != 0 && (
             <div className="flex justify-between px-1 w-full">
               <img
-                src="../public/tvs.png"
+                src="../tvs.png"
                 alt=""
                 className="object-contain h-10 w-64"
               />
@@ -180,7 +180,7 @@ function Form() {
           <div className="flex flex-col justify-center w-full px-20">
             <div className="flex flex-row-reverse justify-between">
               <img
-                src="../public/tvs.png"
+                src="../tvs.png"
                 alt="tvs.png"
                 className="object-fill h-10 w-56"
               />
