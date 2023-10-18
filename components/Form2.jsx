@@ -21,6 +21,7 @@ function Form2({formType, setFormType, secondForm, setSecondForm}) {
           headers: {
             "Content-Type": "application/json",
           },
+          mode:"cors",
           body: JSON.stringify(secondForm),
         });
 
