@@ -77,7 +77,7 @@ function Form() {
         headers: {
           "Content-Type": "application/json",
         },
-        mode: "cors",
+        mode: "no-cors",
         body: JSON.stringify(formData),
       });
 
