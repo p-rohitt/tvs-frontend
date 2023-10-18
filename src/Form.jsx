@@ -72,7 +72,7 @@ function Form() {
     try {
       // Make a POST request to the local server
       console.log(formData);
-      const response = await fetch("http://127.0.0.1:8000/tvsinfo/local/", {
+      const response = await fetch("http://127.0.0.1:8000/tvsinfo/local", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -118,7 +118,7 @@ function Form() {
 
     try {
       // Make a POST request to the local server
-      const response = await fetch("http://127.0.0.1:8000/tvsinfo/global/", {
+      const response = await fetch("http://127.0.0.1:8000/tvsinfo/global", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
