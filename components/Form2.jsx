@@ -16,7 +16,7 @@ function Form2({formType, setFormType, secondForm, setSecondForm}) {
 
       try {
         // Make a POST request to the local server
-        const response = await fetch("http://43.204.142.17/tvsinfo/global", {
+        const response = await fetch("http://43.204.142.17/tvsinfo/global/", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
